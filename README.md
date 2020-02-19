@@ -18,7 +18,7 @@ df -h
 umount /mnt
     
  #now the nfs is set perfectly , now goto master and create pv.yml and pvc and the deployment of pod which you want to run#   
-    # we are using worpress #
+    # we are using wordpress and backend as mysql #
     
     1) create pv using vim pv.yml  : put the code of file pv.yml in this file
     2) in above file put ip address of server and path of the pv
